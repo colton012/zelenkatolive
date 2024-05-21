@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Zelenka to Lolz Redirect",
+    "version": "1.1",
+    "description": "Redirects zelenka.guru to lolz.live",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "*://zelenka.guru/*"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+      "default_popup": "redirect.js"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
